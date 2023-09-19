@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="left-corner">
+        <input type="checkbox" >
+        <label for="show" id="signup" class="sign-btn show-btn">Sign up</label>
+        <div id="firstcontainer" class="container">
+            <button type="reset" class="close-btn">close</button>
+            <div class="text">Sign up Now</div>
+            <form action="#" class="signup-form">
+                <div class="data">
+                    <label>Email or Phone</label>
+                    <input type="text" required placeholder="Enter your email">
+                </div>
+                <div class="data">
+                    <label id="password">Password</label>
+                    <input type="password" required placeholder="Enter your password">
+                </div>
+                <div class="data">
+                    <label  id="password">Confirm Password</label>
+                    <input type="password" required placeholder="Reconfirm your passwords">
+
+                </div>
+                <div class="signup-btn btn">
+                    <div class="inner"></div>
+                    <button type="submit">sign up</button>
+
+                </div>
+                <p id="already">Alread have an account<a id="login-link">
+                    login
+                </a></p>
+                <p id="or">Or</p>
+                <div class="col">
+                    <div class="f-btn">
+                        <a href="#" class="fb btn">
+                            <i class="fa fa-facebook fa-fw"></i>Continue with Facebook
+                        </a>
+                    </div>
+                    <div class="g-btn">
+                        <a href="#" class="Google btn">
+                            <i class="fa fa-google fa-fw"></i>Continue with Google   </a>
+                    </div>
+
+            </form>
+        </div> 
+    </div>
+    <div class="right-side">
+        <input type="checkbox" name="login" id="login">
+        <label for="show" id="login-btn" class="log-btn show-btn">login</label>
+        <div id="secondcontainer" class="container rbox">
+            <button type="reset" class="close-btn clos-btn">close</button>
+            <div class="rtext text">Log in</div>
+            <form action="#" class="login-form">
+                <div class=" rdata data">
+                    <label>Email or Phone</label>
+                    <input type="text" required placeholder="Enter your email">
+                </div>
+                <div class="rdata data">
+                    <label id="password">Password</label>
+                    <input type="password" required placeholder="Enter your password">
+                </div>
+                <div class="login-btn btn">
+                    <div class="inner"></div>
+                    <button type="submit">log in</button>
+                </div>
+                <p id="create"> Create an account<a id="signup-link">
+                    Signup
+                </a></p>
+                    
+                <p id="Or">Or</p>
+                <div class="col">
+                    <div class="f-btn">
+                        <a href="#" class="fb btn">
+                            <i class="fa fa-facebook fa-fw"></i>Login with Facebook
+                        </a>
+                    </div>
+                    <div class="g-btn">
+                        <a href="#" class="Google btn">
+                            <i class="fa fa-google fa-fw"></i>Login with Google
+                        </a>
+                    </div>
+
+            </form>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+ </body>
+</html>
